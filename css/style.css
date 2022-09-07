@@ -14,7 +14,6 @@
     width: 50px;
     text-align: center;
     height: 50px;
-    margin: 5px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -61,4 +60,18 @@
 
 .space-nome {
     justify-content: space-evenly;
+}
+
+.container-exercicioB {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(189, 189, 189);
+    margin-bottom: 20px;
+}
+
+.desafio {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    background-color: rgb(189, 189, 189);
 }
